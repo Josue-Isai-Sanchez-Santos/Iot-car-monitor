@@ -17,6 +17,8 @@ function CallApiRequest() {
           ? "Atras"
           : response.data == "L"
           ? "Izquierda"
+          : response.data == "T"
+          ? "Testeando Carro, espere........"
           : response.data == "R"
           ? "Derecha"
           : "Detener";
